@@ -1,7 +1,11 @@
+import { Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
     <>
-      spune.md app
+      <Routes>
+        <Route  />
+      </Routes>
     </>
   );
 }
