@@ -71,3 +71,50 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+@font-face {
+	font-family: 'Onest';
+	src: url(./fonts/WOFF/OnestBlack1602-hint.woff) format('woff'), url(./fonts/TTF/OnestBlack1602-hint.ttf) format('truetype');
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Onest';
+	src: url(./fonts/WOFF/OnestRegular1602-hint.woff) format('woff'), url(./fonts/TTF/OnestRegular1602-hint.ttf) format('truetype');
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Onest';
+	src: url(./fonts/WOFF/OnestThin1602-hint.woff) format('woff'), url(./fonts/TTF/OnestThin1602-hint.ttf) format('truetype');
+	font-weight: 100;
+}
+@font-face {
+	font-family: 'Onest';
+	src: url(./fonts/WOFF/OnestBold1602-hint.woff) format('woff'), url(./fonts/TTF/OnestExtraBold1602-hint.ttf) format('truetype');
+	font-weight: 500;
+}
+@font-face {
+	font-family: 'Onest';
+	src: url(./fonts/WOFF/OnestExtraBold1602-hint.woff) format('woff'), url(./fonts/TTF/OnestExtraBold1602-hint.ttf) format('truetype');
+	font-weight: 600;
+}
+@font-face {
+	font-family: 'Onest';
+	src: url(./fonts/WOFF/OnestLight1602-hint.woff) format('woff'), url(./fonts/TTF/OnestLight1602-hint.ttf) format('truetype');
+	font-weight: 200;
+}
+@font-face {
+	font-family: 'Onest';
+	src: url(./fonts/WOFF/OnestMedium1602-hint.woff) format('woff'), url(./fonts/TTF/OnestMedium1602-hint.ttf) format('truetype');
+	font-weight: 400;
+}
+
+body {
+  background: rgb(242,242,242);
+  font-family: 'Onest', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  color: inherit; 
+  text-decoration: inherit;
+}
