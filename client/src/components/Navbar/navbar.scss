@@ -15,13 +15,11 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
         min-height: 60px;
-        margin: 0 20px 0 14px;
-
         position: relative;
 
         .left-wrapper {
+            margin-left: 15px;
             display: flex;
             align-items: center;
 
@@ -31,7 +29,7 @@
             }
 
             span {
-                margin-left: 4px;
+                margin-left: 5px;
                 font-size: 1.1rem;
             }
         }
@@ -139,6 +137,7 @@
         .nav-login {
             display: flex;
             align-items: center;
+            margin-right: 15px;
 
             svg {
                 transition: .2s;
