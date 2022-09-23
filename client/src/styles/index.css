@@ -72,6 +72,10 @@ select {
   }
 }
 
+input {
+  all: unset;
+}
+
 @font-face {
 	font-family: 'Onest';
 	src: url(./fonts/WOFF/OnestBlack1602-hint.woff) format('woff'), url(./fonts/TTF/OnestBlack1602-hint.ttf) format('truetype');
