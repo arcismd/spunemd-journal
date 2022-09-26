@@ -1,12 +1,17 @@
 import React from 'react'
 import { Navbar } from '../../components/Navbar/Navbar'
-import { Post} from '../../components/Post/Post'
+import { Posts } from '../../components/Posts/Posts'
+import { LeftNavbar } from '../../components/LeftNavbar/LeftNavbar'
+
+import { Form } from '../../components/Form/Form'
 
 export const HomePage = () => {
   return (
     <>
         <Navbar />
-        <Post />
+        <LeftNavbar />
+        <Posts />
+        <Form />
     </>
   )
 }

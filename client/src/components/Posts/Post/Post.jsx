@@ -2,7 +2,7 @@ import React from 'react'
 
 import './post.scss'
 
-export const Post = () => {
+const Post = () => {
   return (
     <>
         <div className='post-wrapper'>
@@ -13,3 +13,5 @@ export const Post = () => {
     </>
   )
 }
+
+export default Post;
