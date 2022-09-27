@@ -3,7 +3,7 @@ import { NavLink, Link } from 'react-router-dom'
 
 import logo from '../../images/spunemd-logo.png'
 import pencil from '../../images/pencil.png'
-import plus from '../../images/plus-community.png'
+import community from '../../images/community.png'
 import './navbar.scss'
 
 export const Navbar = () => {
@@ -34,9 +34,9 @@ export const Navbar = () => {
                     <img src={pencil} alt='Pencil' />
                         <span>Spune</span>
                         </div>
-                        <div className='add-community'>
-                        <img src={plus} alt='Plus' />
-                                Comunitate
+                        <div className='communities'>
+                        <img src={community} alt='Community' />
+                                Comunități
                             </div>
                     </div>
                     </Link>

@@ -7,7 +7,7 @@ const Post = () => {
     <>
         <div className='post-wrapper'>
             <div className='post'>
-
+              
             </div>
         </div>
     </>
